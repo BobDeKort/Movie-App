@@ -1,0 +1,20 @@
+PODS:
+  - Cosmos (16.0.0)
+  - SwiftStylable (1.2.0)
+
+DEPENDENCIES:
+  - Cosmos (~> 16.0)
+  - SwiftStylable
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Cosmos
+    - SwiftStylable
+
+SPEC CHECKSUMS:
+  Cosmos: 7bcee0fa858a9355a214f2a181be5dffcee42c81
+  SwiftStylable: 67accd8ebaafffd9f5b719b6803c95619c2c53a9
+
+PODFILE CHECKSUM: 382e4156da3279177af034c8b7b71c816133e459
+
+COCOAPODS: 1.5.0

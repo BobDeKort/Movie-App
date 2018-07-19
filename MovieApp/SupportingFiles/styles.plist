@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<dict>
+		<key>darkGray</key>
+		<string>#808080</string>
+	</dict>
+	<key>styles</key>
+	<dict>
+		<key>subText</key>
+		<dict>
+			<key>foregroungColor</key>
+			<string>darkGray</string>
+			<key>parent</key>
+			<string>defaultText</string>
+		</dict>
+		<key>defaultText</key>
+		<dict>
+			<key>font</key>
+			<dict>
+				<key>name</key>
+				<string>ArialMT</string>
+				<key>size</key>
+				<integer>15</integer>
+			</dict>
+		</dict>
+		<key>titleText</key>
+		<dict>
+			<key>font</key>
+			<dict>
+				<key>name</key>
+				<string>Arial-BoldMT</string>
+				<key>size</key>
+				<integer>25</integer>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

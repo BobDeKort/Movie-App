@@ -1,0 +1,6 @@
+framework module SwiftStylable {
+  umbrella header "SwiftStylable-umbrella.h"
+
+  export *
+  module * { export * }
+}
