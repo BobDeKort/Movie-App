@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -118,11 +118,11 @@
 		50C5690C489C8011E8CF0FA9C7CB6821 /* Pods-MovieApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MovieApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		551C95092EEC6C1987986517CCD280E4 /* ForegroundStylePropertySet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ForegroundStylePropertySet.swift; path = SwiftStylable/Classes/Style/StyleSets/ForegroundStylePropertySet.swift; sourceTree = "<group>"; };
 		55982029C67595619873C96D53D858BF /* STSwitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = STSwitch.swift; path = SwiftStylable/Classes/Style/StylableComponents/STSwitch.swift; sourceTree = "<group>"; };
-		57F8E46F8F7215B18589EB1B7FE68F54 /* SwiftStylable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftStylable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F8E46F8F7215B18589EB1B7FE68F54 /* SwiftStylable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftStylable.framework; path = SwiftStylable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64557077DBBD055D9E1A34C5070B2A04 /* StylePropertySet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StylePropertySet.swift; path = SwiftStylable/Classes/Style/StyleSets/StylePropertySet.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6C3CFE1BCB6A48F17E7ED72F8E35ECE9 /* UIColor+HexInit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+HexInit.swift"; path = "SwiftStylable/Classes/Extensions/UIColor+HexInit.swift"; sourceTree = "<group>"; };
-		6E28E648D3E93B035E5AFE25BB4AE248 /* Cosmos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cosmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E28E648D3E93B035E5AFE25BB4AE248 /* Cosmos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cosmos.framework; path = Cosmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FB3E74AF6C76C86994F5FFCC1AE6D14 /* TableViewSeparatorStylable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewSeparatorStylable.swift; path = SwiftStylable/Classes/Style/StyleSets/TableViewSeparatorStylable.swift; sourceTree = "<group>"; };
 		7539ED9B08152339EBC2840C352BF178 /* Pods-MovieApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MovieApp-umbrella.h"; sourceTree = "<group>"; };
 		7572B3762E4D2CCC3C3BEC07C1DC706E /* STTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = STTextField.swift; path = SwiftStylable/Classes/Style/StylableComponents/STTextField.swift; sourceTree = "<group>"; };
@@ -132,8 +132,8 @@
 		80756398714BD0BA77C32D53C63DBA05 /* STView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = STView.swift; path = SwiftStylable/Classes/Style/StylableComponents/STView.swift; sourceTree = "<group>"; };
 		827E69EC67554A888E6A9A46D46F21ED /* SwiftStylable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftStylable.modulemap; sourceTree = "<group>"; };
 		8E7B0D954444CAE19DFA44B487833D79 /* STTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = STTableViewCell.swift; path = SwiftStylable/Classes/Style/StylableComponents/STTableViewCell.swift; sourceTree = "<group>"; };
-		920CA845C43E1489AA4D59B7D66B3F0F /* Pods_MovieApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovieApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		920CA845C43E1489AA4D59B7D66B3F0F /* Pods_MovieApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MovieApp.framework; path = "Pods-MovieApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95576F38FDCA1EA8F56BC7F0DC36C215 /* STActivityIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = STActivityIndicator.swift; path = SwiftStylable/Classes/Style/StylableComponents/STActivityIndicator.swift; sourceTree = "<group>"; };
 		95890964C6F05001921060C660A46A2D /* STLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = STLabel.swift; path = SwiftStylable/Classes/Style/StylableComponents/STLabel.swift; sourceTree = "<group>"; };
 		97E50A6A64576C4AE0B7CAC63AC6A0C8 /* TextStylable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextStylable.swift; path = SwiftStylable/Classes/Style/StyleSets/TextStylable.swift; sourceTree = "<group>"; };
@@ -215,6 +215,7 @@
 				F73E3D5E9A500330381A5FE16CB1967C /* StarLayer.swift */,
 				EEB177AD0C5FC7BD8E3F98949A2A129E /* Support Files */,
 			);
+			name = Cosmos;
 			path = Cosmos;
 			sourceTree = "<group>";
 		};
@@ -277,6 +278,7 @@
 				C8B08E657C66FA2EA450A66EB0345A9D /* UIImage+ImageWithTintColor.swift */,
 				51E33C170FD802597A73FD574CD0080D /* Support Files */,
 			);
+			name = SwiftStylable;
 			path = SwiftStylable;
 			sourceTree = "<group>";
 		};
@@ -452,7 +454,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -854,7 +856,6 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
