@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="KGk-i7-Jjw" customClass="MovieTableViewCell" customModule="MovieApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="101"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="100.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="R8l-Wf-Jas">
+                        <rect key="frame" x="5" y="5" width="60.5" height="90.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="9wf-cy-h35"/>
+                            <constraint firstAttribute="width" secondItem="R8l-Wf-Jas" secondAttribute="height" multiplier="2:3" id="WPi-Ru-2jn"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="UKF-GZ-Drg">
+                        <rect key="frame" x="75.5" y="11" width="168.5" height="79"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3O-ee-wKZ">
+                                <rect key="frame" x="0.0" y="0.0" width="168.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x14-tx-dpY" customClass="CosmosView" customModule="Cosmos">
+                                <rect key="frame" x="0.0" y="20.5" width="168.5" height="58.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="totalStars">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fillMode">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="updateOnTouch" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="starSize">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                    </stackView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySs-qv-wpe">
+                        <rect key="frame" x="254" y="25" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="ySs-qv-wpe" secondAttribute="height" multiplier="1:1" id="FBg-D2-RbE"/>
+                            <constraint firstAttribute="height" constant="50" id="G7E-Nt-sqn"/>
+                        </constraints>
+                        <connections>
+                            <action selector="favoriteAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="biR-G8-6wm"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ySs-qv-wpe" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="CK6-4J-fL6"/>
+                    <constraint firstItem="UKF-GZ-Drg" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="CKp-b4-deK"/>
+                    <constraint firstItem="ySs-qv-wpe" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Gut-WC-uzJ"/>
+                    <constraint firstItem="ySs-qv-wpe" firstAttribute="leading" secondItem="UKF-GZ-Drg" secondAttribute="trailing" constant="10" id="LNn-in-SiO"/>
+                    <constraint firstItem="UKF-GZ-Drg" firstAttribute="leading" secondItem="R8l-Wf-Jas" secondAttribute="trailing" constant="10" id="NfX-as-H4X"/>
+                    <constraint firstItem="R8l-Wf-Jas" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="WKU-IB-oTw"/>
+                    <constraint firstItem="UKF-GZ-Drg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="ihF-P9-6zn"/>
+                    <constraint firstItem="R8l-Wf-Jas" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="ttH-Qp-Kne"/>
+                    <constraint firstAttribute="bottom" secondItem="R8l-Wf-Jas" secondAttribute="bottom" constant="5" id="ylH-rf-69C"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="favoriteButton" destination="ySs-qv-wpe" id="W4U-xi-0Fm"/>
+                <outlet property="posterImageView" destination="R8l-Wf-Jas" id="nif-Bs-gKi"/>
+                <outlet property="ratingView" destination="x14-tx-dpY" id="JwJ-JN-RNQ"/>
+                <outlet property="titleLabel" destination="v3O-ee-wKZ" id="XUg-EN-4Wr"/>
+            </connections>
+            <point key="canvasLocation" x="56" y="155.5"/>
+        </tableViewCell>
+    </objects>
+</document>
